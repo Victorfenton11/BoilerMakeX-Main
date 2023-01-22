@@ -267,7 +267,7 @@ def timer():
             else:
                 return
         else:
-            time.sleep(16)
+            time.sleep(13)
         #if something is playing, get the time left
         # if less than 10 seconds, queue right away
         #otherwise set a wait for the remaining time - 15 seconds, and then quueue
