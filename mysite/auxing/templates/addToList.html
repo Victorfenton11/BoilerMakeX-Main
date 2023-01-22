@@ -1,7 +1,0 @@
-<p>input song json to add to list </p>
-<p>  {"uri": "spotify:track:1c8gk2PeTE04A1pIDH9YMk", "title": "Rolling in the Deep", "artist": "Adele", "duration": 228.093, "album_cover": "https://i.scdn.co/image/ab67616d0000b2732118bf9b198b05a95ded6300"}</p>
-<form method="POST">
-    {% csrf_token %}
-    <input type="text" id='json' name='json'>enter the song json</input>
-    <input type="submit" value="Submit">
-</form>
